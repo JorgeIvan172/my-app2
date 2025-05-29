@@ -1,11 +1,8 @@
 "use client";
 import React from 'react';
 import { Icon } from 'next/dist/lib/metadata/types/metadata-types';
-import Ivan from '../Img/IvanH.jpg';
 import { useTranslation } from 'react-i18next'
-import { MdOutlineSchool } from "react-icons/md";
-import { RiReactjsLine } from "react-icons/ri";
-import { MdWorkOutline } from "react-icons/md";
+
 import ListGroup from 'react-bootstrap/ListGroup';
 import i18n from '../../i18n/i18n'; // o './lib/i18n' según dónde esté ubicado
 

@@ -1,6 +1,7 @@
 "use client";
 
 import Carousel from 'react-bootstrap/Carousel';
+{/* 
 import proyect_1 from '../Img/project_1.jpg';
 import proyect_2 from '../Img/project_2.jpg';
 import proyect_3 from '../Img/project_3.jpg';
@@ -9,6 +10,7 @@ import proyect_5 from '../Img/project_5.jpg';
 import proyect_6 from '../Img/project_6.jpg';
 import proyect_7 from '../Img/project_7.jpg';
 import proyect_8 from '../Img/project_8.jpg';
+
 import React from 'react';
 import { useTranslation } from 'react-i18next'
 import "../Css/Home.css";
@@ -141,3 +143,4 @@ export default function Proyects() {
     </div>
   );
 }
+*/}

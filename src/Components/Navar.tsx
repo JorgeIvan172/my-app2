@@ -1,10 +1,10 @@
 "use client";
 import { useState, useEffect } from "react";
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Container, Nav, Navbar, NavDropdown, Form } from "react-bootstrap";
 import { useTranslation } from 'react-i18next'
 import i18n from '../../i18n/i18n';
 import "../Css/Home.css";
-import { Form } from "react-bootstrap";
+
 
 export const Navar = () => {
   const { t } = useTranslation();
@@ -30,7 +30,7 @@ export const Navar = () => {
             <Nav.Link href="/#experience">{t('experience')}</Nav.Link>
             <Nav.Link href="/#skills">{t('skills')}</Nav.Link>
             <Nav.Link href="/#contact">{t('contact')}</Nav.Link>
-            <Nav.Link href="/proyects">{t('projects')}</Nav.Link>
+            
 
           </Nav>
           <Nav>
@@ -61,3 +61,4 @@ export const Navar = () => {
     </Navbar>
   );
 };
+//<Nav.Link href="/proyects">{t('projects')}</Nav.Link>
