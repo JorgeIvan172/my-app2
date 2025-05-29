@@ -1,6 +1,6 @@
 
 // app/layout.tsx
-import '../i18n/i18n'; // Importa i18n una vez, global
+import '../../i18n/i18n'; // Importa i18n una vez, global
 import type { Metadata } from 'next';
 
 // Google Fonts
@@ -8,7 +8,7 @@ import { Geist, Geist_Mono } from 'next/font/google';
 
 // Estilos globales y externos
 import './globals.css'; // Usa esto para estilos base (renombra si era page.module.css)
-import '../src/Css/Home.css';
+import '../Css/Home.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
