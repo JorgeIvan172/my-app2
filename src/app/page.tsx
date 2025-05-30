@@ -13,7 +13,8 @@ import { Navar } from "@/Components/Navar";
 export default function Page() {
   return (
     <>
-    <h1>HOLA MUNDO</h1>
+    <Navar />
+    <Home />
   
     </>
   );
